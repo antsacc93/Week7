@@ -1,0 +1,64 @@
+﻿body
+{
+    background-color: aliceblue;
+}
+
+h1{
+    color: cornflowerblue;
+}
+
+.primaClasse{
+    font-size: 20px;
+    color: red;
+    /*border: 5px solid yellow;*/
+}
+
+#primoParagrafo{
+    font-size: 25px;
+    background-color: yellow;
+    color: fuchsia;
+}
+
+p::first-line {
+    color: chartreuse;
+}
+
+h1, p {
+    font-family: 'Copperplate Gothic';
+    background-color: brown;
+}
+
+/*modifica sia sui paragrafi figli diretti che indiretti di div*/
+div p {
+    border:dotted;
+}
+
+/*modifica solo sui paragrafi figli diretti di div*/
+div > p {
+    text-align: center;
+}
+
+a:hover{
+    background-color: crimson;
+    font-size: 100px;
+}
+
+a:visited{
+    color:gold;
+}
+
+a{
+    font-size: 30px;
+}
+
+input[type="email"]{
+    background-color: coral;
+}
+
+input[required]{
+    color: darkorchid;
+}
+
+img[alt="mare"]{
+    border: 5px solid red;
+}

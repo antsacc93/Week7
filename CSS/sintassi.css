@@ -1,0 +1,33 @@
+﻿/*selettore{
+    proprietà1:valore1;
+    proprietà2:valore2;
+    ...
+}*/
+
+body
+{
+    background-color: antiquewhite;
+}
+
+/*tutti i paragrafi p hanno queste regole*/
+p {
+    color: darkblue;
+    background-color: bisque;
+    font-size: small; 
+    font-family: Cambria, Arial;
+    text-align:justify;
+    padding: 25px;
+    border: 5px solid red;
+}
+
+h2 {
+    color: rgb(88 191 141);
+}
+
+h3{
+    color: rgba(170, 55, 55, 0.2);
+}
+
+h4{
+    color: #41ad7b;
+}

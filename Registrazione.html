@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form>
+        <label>Nome</label>
+        <input type="text" placeholder="Nome" />
+
+        <br />
+        <br />
+
+        <label>Cognome</label>
+        <input type="text" placeholder="Cognome" />
+
+        <br />
+        <br />
+
+        <label>Email</label>
+        <input type="email" placeholder="Email" required />
+
+        <br />
+        <br />
+
+        <label>Password</label>
+        <input type="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" 
+               title="Inserire il pattern richiesto" required />
+
+        <br />
+        <br />
+
+        <label>Data di nascita</label>
+        <input type="date" />
+
+        <br />
+        <br />
+
+        <label>Numero di telefono</label>
+        <input type="tel" />
+
+        <br />
+        <br />
+
+        <label>Sesso</label>
+        <select>
+            <option value="">Seleziona un'opzione</option>
+            <option value="1">F</option>
+            <option value="2">M</option>
+            <option value="3">Non voglio dichiararlo</option>
+        </select>
+
+        <label><input type="radio" value="1" name="sesso" />F</label>
+        <label><input type="radio" value="2" name="sesso" />M</label>
+        <label><input type="radio" value="3" name="sesso" />Non voglio dichiararlo</label>
+
+        <br />
+        <br />
+
+        <label>Lingue conosciute</label>
+        <label>
+            <input type="checkbox" value="1" name="LinguaIT"/>
+            Italiano
+        </label>
+        <label>
+            <input type="checkbox" value="2" name="LinguaUK" />
+            Inglese
+        </label>
+        <label>
+            <input type="checkbox" value="3" name="LinguaFR"/>
+            Francese
+        </label>
+
+
+        <input type="submit" value="Registrati" />
+        <input type="reset" value="Annulla"/>
+    </form>
+</body>
+</html>
