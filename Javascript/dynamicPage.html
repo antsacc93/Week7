@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="welcomeMessage()">
+    <h1>Prima pagina dinamica</h1>
+
+    <img id="summer" src="images/piscina.jpg" width="400" height="200"/>
+    <br />
+    <br />
+    <button onclick="changeImage()">Cambia immagine</button>
+    <button onclick="changeFont()">Cambia Font</button>
+    <button onclick="changeVisibility()">Cambia visibilità</button>
+    <button onclick="changeText()">Aggiungi NI</button>
+    <button onclick="changeSingleCell()">Cambio singolo</button>
+    <button onclick="checkTrueOrFalse()">Verifica</button>
+
+    <p>Primo paragrafo</p>
+    <p>Secondo paragrafo</p>
+    <p>Terzo paragrafo</p>
+
+    <label>Primo</label>
+    <input class="selection" type="checkbox" />
+
+    <label>Secondo</label>
+    <input class="selection" type="checkbox" />
+
+    <table id="tabellaNascosta" onmouseover="changeVisibility()">
+        <tr>
+            <td>
+                Mario
+            </td>
+            <td>
+                Rossi
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Giovanni
+            </td>
+            <td>
+                Bianchi
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Luana
+            </td>
+            <td>
+                Verdi
+            </td>
+        </tr>
+    </table>
+
+    <input type="text" onkeydown="changeTextColor()"/>
+
+    <script src="dynamicPage.js"></script>
+</body>
+</html>
