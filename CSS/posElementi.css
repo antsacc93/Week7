@@ -1,0 +1,54 @@
+﻿img{
+    align-content:center;
+    width:150px;
+    height:75px;
+    
+}
+
+header{
+    display:flex;
+    margin-left: 100px;
+}
+
+h1{
+    /*display:inline;*/
+    margin-left: 10px;
+    text-align: center;
+}
+
+#nascosto{
+    visibility: hidden;
+}
+
+#floatLeft{
+    border: 3px dashed red;
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+#noFloat{
+    border: 5px solid green;
+    border-radius: 4px;
+    width: 400px;
+    height: 200px;
+    /*clear:left;*/
+    float:left;
+}
+
+
+@media screen and (max-width: 992px){
+    body{
+        background-color: darkslateblue;
+    }
+    #noFloat{
+        clear:left;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    body {
+        background-color: coral;
+    }
+}
+

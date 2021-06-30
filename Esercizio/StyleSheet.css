@@ -1,0 +1,133 @@
+﻿body {
+    background-color: lavender;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+h1 {
+    font-family: 'Segoe UI';
+    color: mediumvioletred;
+}
+
+#logo + h1 {
+    display: inline;
+}
+  
+/*STILE DELLA NAV BAR VERTICALE*/
+ul {
+    padding: 0;
+    margin-left: -8px;
+    margin-right: -8px;
+    list-style-type: none;
+    background: white;
+    /*overflow: hidden;*/ /*Per barra orizzontale*/
+    /*overflow serve per gestire contenuto che è troppo grande per fittare un'area*/
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    /*color: black;*/
+    text-align: center;
+    padding: 10px;
+}
+
+li a {
+    /*float: left; per averla orizzontale*/
+    display: block;
+    text-decoration: none;
+    /*color: mediumvioletred;*/
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    font-family: 'Segoe UI';
+}
+
+    li a:link {
+        color: mediumvioletred;
+    }
+
+    li a:visited {
+        color: indianred;
+    }
+
+    li a:hover {
+        background-color: lightgrey;
+    }
+
+/*Selettore table*/
+table {
+    background-color: antiquewhite;
+}
+
+    table thead, tfoot {
+        font-family: 'Segoe UI';
+        background-color: thistle;
+        color: mediumvioletred;
+    }
+    /*Si usa ',' per indicare che la regola sia valida per i due elementi separati dalla ','*/
+
+    table tr {
+        font-family: 'Segoe UI';
+        text-align: center;
+    }
+
+/*Selettore righe pari e dispari*/
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lavenderblush;
+}
+
+/*Cambiare il background-color e il color delle righe quando si passa sopra con il mouse*/
+tbody tr:hover {
+    background-color: azure;
+    color: mediumvioletred;
+}
+
+/*Selezionare tramite id la tabella e impostare testo centrale*/
+#tabellaProdotti {
+    text-align: center;
+}
+
+label {
+    color: darkblue;
+    font-family: 'Segoe UI';
+}
+
+form {
+    text-align: center;
+}
+
+input[type=submit], input[type=reset] {
+    margin-top: 20px;
+    color: darkblue;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: #c61885;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+
+input {
+    font-family: 'Segoe UI';
+    border-color: darkblue;
+    border-style: ridge;
+    border-radius: 5px;
+}
+
+p {
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+
+#imgEdit, #imgDelete {
+    width : 30px; 
+    height: 30px;
+}
