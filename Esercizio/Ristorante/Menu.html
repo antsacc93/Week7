@@ -1,0 +1,95 @@
+<!--Menu pomeriggio e Sera in due sezioni-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Menu</title>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <meta name="viewport" content="width=device-width"/>
+    </head>
+    
+    <body>
+    
+        <!--<section style="float: left; width: 50%;">-->
+        <header style="text-align: center;">
+            <h1>Menu</h1>
+        </header>
+        <section align="center">
+            <table border="1" align="center">
+                <thead>
+                    <tr>
+                        <th>
+                            Nome del piatto
+                        </th>
+                        <th>
+                            Descrizione
+                        </th>
+                        <th>
+                            Prezzo
+                        </th>
+                        <th>
+
+                        </th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td colspan="4">Antipasti</td>
+                </tr>
+                <tr>
+                    <td> Antipasti del casale</td>
+                    <td> Antipasto misto</td>
+                    <td class="price">12</td>
+                    <td><input class="choice" type="checkbox" /></td>
+                </tr>
+                <tr>
+                    <td colspan="4">Primi piatti</td>
+                </tr>
+                <tr>
+                    <td> Strascinati ai fiori di zucca</td>
+                    <td> Pasta fatta in casa con fiori di zucca</td>
+                    <td class="price"> 7 </td>
+                    <td><input class="choice" type="checkbox" /></td>
+                </tr>
+                <tr>
+                    <td colspan="4">Secondi</td>
+                </tr>
+                <tr>
+                    <td> Grigliata di agnello</td>
+                    <td> Grigliata mista di agnello (per 2 persone)</td>
+                    <td class="price"> 18 </td>
+                    <td><input class="choice" type="checkbox" /></td>
+                </tr>
+                <tr>
+                    <td colspan="4">Dolci</td>
+                </tr>
+                <tr>
+                    <td> Torta alle mele</td>
+                    <td> Torta di mele </td>
+                    <td class="price"> 4 </td>
+                    <td><input class="choice" type="checkbox" /></td>
+                </tr>
+
+            </table>
+
+            <br />
+
+            <div id="conto">
+                <button onclick="calcolaPrezzo()">Calcola prezzo</button>
+
+            </div>
+        </section>
+            
+            
+
+        <!--</section>-->
+
+        
+        <section>
+            <a href="index.html">
+                <button>Go Back</button>
+            </a>
+        </section>
+    
+
+        <script src="script.js"></script>
+    </body>
+</html>

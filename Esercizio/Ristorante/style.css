@@ -1,0 +1,22 @@
+﻿body
+{
+    background-color: lemonchiffon;
+}
+
+.ul-menu {
+    margin: 0 auto 0 auto;
+    width: 260px;
+    padding: 0;
+    overflow: hidden;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.li-menu {
+    /*float: left;*/
+}
+
+section form {
+    text-align: center;
+}
+
